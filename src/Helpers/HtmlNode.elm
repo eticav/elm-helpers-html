@@ -76,9 +76,9 @@ for : String->Summary msg->Summary msg
 for str sumy =
   addAttribute (Html.Attributes.for str) sumy
 
-onChange : (String -> msg)->Summary msg->Summary msg
-onChange msg sumy =
-  addAttribute (Helpers.Html.onChange msg) sumy
+-- onChange : (String -> msg)->Summary msg->Summary msg
+-- onChange msg sumy =
+--   addAttribute (Helpers.Html.onChange msg) sumy
   
 href : String->Summary msg->Summary msg
 href str sumy =
